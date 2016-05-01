@@ -19,7 +19,10 @@
         "cordova-plugin-media": {
             "PACKAGE_NAME": "com.fox.trillrush"
         },
-        "cordova-plugin-ad-admob": {
+        "com.google.playservices": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "com.cranberrygame.phonegap.plugin.ad.admob": {
             "PACKAGE_NAME": "com.fox.trillrush"
         },
         "cordova-plugin-ad-chartboost": {
@@ -27,14 +30,6 @@
         }
     },
     "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.fox.trillrush"
-        },
-        "cordova-plugin-extras-google-play-services": {
-            "PACKAGE_NAME": "com.fox.trillrush"
-        },
-        "cordova-plugin-ad-admob-sdk": {
-            "PACKAGE_NAME": "com.fox.trillrush"
-        }
+
     }
 }

@@ -23,14 +23,6 @@
                         {
                             "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Admob\"><param name=\"android-package\" value=\"com.cranberrygame.cordova.plugin.ad.admob.Admob\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"ChartboostPlugin\"><param name=\"android-package\" value=\"com.cranberrygame.cordova.plugin.ad.chartboost.ChartboostPlugin\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
@@ -53,48 +45,10 @@
                         {
                             "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
                             "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
-                            "count": 1
                         }
                     ],
-                    "/manifest/application": [
-                        {
-                            "xml": "<meta-data android:name=\"com.google.android.gms.version\" android:value=\"@integer/google_play_services_version\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<activity android:configChanges=\"keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize\" android:name=\"com.google.android.gms.ads.AdActivity\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<activity android:configChanges=\"keyboardHidden|orientation|screenSize\" android:excludeFromRecents=\"true\" android:hardwareAccelerated=\"true\" android:name=\"com.chartboost.sdk.CBImpressionActivity\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar.Fullscreen\" />",
-                            "count": 1
-                        }
-                    ],
-                    "/manifest": [
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 1
-                        }
-                    ]
+                    "/manifest/application": [],
+                    "/manifest": []
                 }
             }
         }
@@ -113,18 +67,6 @@
             "PACKAGE_NAME": "com.fox.trillrush"
         },
         "cordova-plugin-media": {
-            "PACKAGE_NAME": "com.fox.trillrush"
-        },
-        "cordova-plugin-extras-google-play-services": {
-            "PACKAGE_NAME": "com.fox.trillrush"
-        },
-        "cordova-plugin-ad-admob-sdk": {
-            "PACKAGE_NAME": "com.fox.trillrush"
-        },
-        "cordova-plugin-ad-admob": {
-            "PACKAGE_NAME": "com.fox.trillrush"
-        },
-        "cordova-plugin-ad-chartboost": {
             "PACKAGE_NAME": "com.fox.trillrush"
         }
     },
@@ -308,20 +250,6 @@
             "clobbers": [
                 "window.Media"
             ]
-        },
-        {
-            "file": "plugins/cordova-plugin-ad-admob/www/admob.js",
-            "id": "cordova-plugin-ad-admob.admob",
-            "clobbers": [
-                "window.admob"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-ad-chartboost/www/chartboost.js",
-            "id": "cordova-plugin-ad-chartboost.chartboost",
-            "clobbers": [
-                "window.chartboost"
-            ]
         }
     ],
     "plugin_metadata": {
@@ -329,10 +257,6 @@
         "cordova-plugin-compat": "1.0.0",
         "cordova-plugin-file": "4.2.0",
         "cordova-plugin-file-transfer": "1.5.1",
-        "cordova-plugin-media": "2.3.0",
-        "cordova-plugin-extras-google-play-services": "1.0.3",
-        "cordova-plugin-ad-admob-sdk": "1.0.32",
-        "cordova-plugin-ad-admob": "1.0.107",
-        "cordova-plugin-ad-chartboost": "1.0.81"
+        "cordova-plugin-media": "2.3.0"
     }
 }

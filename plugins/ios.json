@@ -1,0 +1,35 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "com.google.playservices": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "com.cranberrygame.phonegap.plugin.ad.admob": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-ad-chartboost": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        }
+    },
+    "dependent_plugins": {
+
+    }
+}

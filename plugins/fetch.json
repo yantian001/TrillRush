@@ -39,14 +39,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-ad-admob": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-ad-admob"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-ad-admob-sdk": {
         "source": {
             "type": "git",
@@ -62,14 +54,6 @@
             "id": "cordova-plugin-extras-google-play-services"
         },
         "is_top_level": false,
-        "variables": {}
-    },
-    "cordova-plugin-ad-chartboost": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-ad-chartboost"
-        },
-        "is_top_level": true,
         "variables": {}
     }
 }
