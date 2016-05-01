@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-ad-admob": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-ad-chartboost": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-extras-google-play-services": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        },
+        "cordova-plugin-ad-admob-sdk": {
+            "PACKAGE_NAME": "com.fox.trillrush"
+        }
+    }
+}
