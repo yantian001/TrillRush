@@ -122,7 +122,7 @@
         s.id = 'cocos2d-html5';
         d.body.appendChild(s);
 
-        init();
+        admob_init();
         cb_init();
         //alert(window.admob);
         //else if single file specified, load singlefile

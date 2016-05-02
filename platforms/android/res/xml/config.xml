@@ -15,6 +15,12 @@
     <feature name="Media">
         <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
     </feature>
+    <feature name="Admob">
+        <param name="android-package" value="com.cranberrygame.cordova.plugin.ad.admob.Admob" />
+    </feature>
+    <feature name="ChartboostPlugin">
+        <param name="android-package" value="com.cranberrygame.cordova.plugin.ad.chartboost.ChartboostPlugin" />
+    </feature>
     <allow-intent href="market:*" />
     <icon density="ldpi" src="res/Icon/android/drawable-ldpi/ic_launcher.png" />
     <icon density="mdpi" src="res/Icon/android/drawable-mdpi/ic_launcher.png" />

@@ -178,6 +178,20 @@ module.exports = [
         "clobbers": [
             "window.Media"
         ]
+    },
+    {
+        "file": "plugins/com.cranberrygame.phonegap.plugin.ad.admob/www/admob.js",
+        "id": "com.cranberrygame.phonegap.plugin.ad.admob.admob",
+        "clobbers": [
+            "window.admob"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-ad-chartboost/www/chartboost.js",
+        "id": "cordova-plugin-ad-chartboost.chartboost",
+        "clobbers": [
+            "window.chartboost"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -187,7 +201,10 @@ module.exports.metadata =
     "cordova-plugin-compat": "1.0.0",
     "cordova-plugin-file": "4.2.0",
     "cordova-plugin-file-transfer": "1.5.1",
-    "cordova-plugin-media": "2.3.0"
+    "cordova-plugin-media": "2.3.0",
+    "com.google.playservices": "19.0.0",
+    "com.cranberrygame.phonegap.plugin.ad.admob": "1.0.39",
+    "cordova-plugin-ad-chartboost": "1.0.81"
 };
 // BOTTOM OF METADATA
 });

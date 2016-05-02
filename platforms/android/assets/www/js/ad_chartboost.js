@@ -33,27 +33,3 @@ function cb_showMoreApp()
 {
   window.chartboost.showMoreAppsAd('Default');
 }
-
-var cb = {
-  init:function()
-  {
-
-      window.chartboost.setUp(cbid.appid,cbid.appSignature);
-      window.chartboost.onInterstitialAdPreloaded = this.onInterstitialAdPreloaded;
-      this.preload();
-      //alert('inti ios');
-  },
-  preload:function()
-  {
-    window.chartboost.preloadInterstitialAd('Default');
-    window.chartboost.preloadMoreAppsAd('Default');
-  },
-  onInterstitialAdPreloaded:function(location)
-  {
-    alert('Chartboost intersitial ad proloaded on'+ location);
-  },
-  showInterstitialAd:function()
-  {
-    window.chartboost.showInterstitialAd('Default');
-  }
-}

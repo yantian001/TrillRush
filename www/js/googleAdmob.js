@@ -1,9 +1,10 @@
 
 
-var isOverlap = false;
+var isOverlap = true;
 var isTest = false;
 var mobid ={};
 if (/(android)/i.test(navigator.userAgent)) {
+	alert('android');
 mobid={
 	bannerAdUnit:"ca-app-pub-4639863322045897/3773818369",
 	intersititalAdUnit:"ca-app-pub-4639863322045897/5250551569"
@@ -17,11 +18,11 @@ mobid={
   };
 }
 
-function init(){
+function admob_init(){
 	window.admob.setUp(mobid.bannerAdUnit,mobid.intersititalAdUnit,isOverlap,isTest);
 	window.admob.onBannerAdPreloaded = bannerPreloaded;
 	window.admob.onInterstitialAdPreloaded = intersitialPreloaded;
-	//window.admob.preloadBannerAd();
+	window.admob.preloadBannerAd();
 	//bannerPreloaded();
 	//window.admob.preloadInterstitialAd();
 	//alert('msg');
@@ -30,7 +31,7 @@ function init(){
 function bannerPreloaded()
 {
 	//admob_showBanner(bannerLocation.)
-	alert('banner loaded!');
+	//alert('banner loaded!');
 	//window.admob.showBannerAd('top-center', 'SMART_BANNER');
 }
 
@@ -42,8 +43,9 @@ function hideBanner()
 function admob_showBanner(location)
 {
 	//window.admob.hideBanner();
-	hideBanner();
-	window.admob.showBannerAd(location, 'banner');
+	//alert(location);
+	//hideBanner();
+	window.admob.showBannerAd(location, 'BANNER');
 }
 
 function intersitialPreloaded () {

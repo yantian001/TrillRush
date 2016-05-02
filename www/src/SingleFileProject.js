@@ -24,7 +24,8 @@ function showButtonParticles(t) {
     }
 }
 function spilPauseGame() {
-    gSharedEngine.pauseMusic()
+    gSharedEngine.pauseMusic();
+    cb_show();
 }
 function spilResumeGame() {
     gSharedEngine.resumeMusic()
@@ -989,7 +990,7 @@ var GAME_VERSION = "0.1",
 DAY_STAGE = 1,
 NIGHT_STAGE = 2,
 NUMBER_OF_LIVES = 9,
-FLURRY_SESSION_KEY = "",
+FLURRY_SESSION_KEY = "KZMB2RMQ4ZYS7MMXMJRY",
 WIN_SIZE = null,
 CENTER_POS = null,
 CAR_1 = 0,
@@ -4281,10 +4282,11 @@ SceneFail = cc.Layer.extend({
         this.checkBackgroundScreen()
     },
     moreGamesCallBack: function() {
-        if (showButtonParticles(this._itemMoreGame), SpilAPI) {
-            var t = SpilAPI.Branding.getLink("more_games");
-            t.action()
-        }
+        // if (showButtonParticles(this._itemMoreGame), SpilAPI) {
+        //     var t = SpilAPI.Branding.getLink("more_games");
+        //     t.action()
+        // }
+        cb_showMoreApp();
     },
     gotoNextScene: function() {
         var t = cc.Scene.create(),
@@ -4348,7 +4350,7 @@ SceneMainMenu = cc.Layer.extend({
         this.init(),
         gSharedEngine.playEffect(SOUND_18),
         this.scheduleUpdate(),
-        admob_showBanner(bannerLocation.BOTTOMCENTER);
+        admob_showBanner(bannerLocation.BOTTOMLEFT);
     },
     init: function() {
         var t = !1;
@@ -5190,7 +5192,8 @@ SceneSelectLevel = cc.Layer.extend({
             y: e[2]
         }),
         "mouse" in sys.capabilities && this.setMouseEnabled(!0),
-        this.init()
+        this.init(),
+        admob_showBanner(bannerLocation.BOTTOMCENTER);
     },
     init: function() {
         var t = !1;
@@ -6300,7 +6303,7 @@ Car = cc.Class.extend({
         this._initPos.y = e,
         this._alive = !0,
         null !== this._camera && this._camera.addChild(this._node),
-        admob_showBanner(bannerLocation.TOPCENTER);
+        admob_showBanner(bannerLocation.TOPRIGHT);
 
     },
     changeDirection: function() {
