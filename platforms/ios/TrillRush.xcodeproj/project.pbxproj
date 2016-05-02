@@ -5,9 +5,11 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1566B4992FFC4E5DB36A4DB8 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = A070AC89A7FB419682ED1345 /* CDVLocalFilesystem.m */; };
+		192C95B72119434BB1914021 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B611696AB558488A99B442ED /* Chartboost.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		245F8C4D738C4AC0855B2E87 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6F9E62B96D409CA377CADC /* EventKit.framework */; };
@@ -23,18 +25,17 @@
 		35E2FA45195643D2B399B254 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE1CA8A8B74FC282DC4B38 /* MessageUI.framework */; };
 		37E8D8EA9771478E90A06004 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A06405525645E383E1987F /* EventKitUI.framework */; };
 		380B32374BAC494F90CAF748 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E3F5640029472AA1E56BEF /* StoreKit.framework */; };
+		66FBF224700847CBBBEFDD4E /* Admob.m in Sources */ = {isa = PBXBuildFile; fileRef = A8430F4FFC4D45E3904B0136 /* Admob.m */; };
 		6E54435C98C14C9C92D33AB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1821A54D22D04E3B86DC7193 /* Foundation.framework */; };
 		A0785DB0ED32440AADC99F73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBFDA5393174687B9C96C8C /* SystemConfiguration.framework */; };
+		A0EB676904A046F7A45FF247 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF8401A9C5743DB9D16B363 /* libGoogleAdMobAds.a */; };
 		BE5CE7624B534BD3865AC196 /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBEBE2D13749F39C8EBE91 /* CDVFileTransfer.m */; };
+		C78FF1DD39B6416E915AF676 /* ChartboostPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BABBA7388B374A189F2FC32F /* ChartboostPlugin.m */; };
 		D11C7921F2A64B36996AF95F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5891DF4CE447F8BF1474F5 /* AdSupport.framework */; };
 		D60123E96E2A4E81AA9645BF /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 18948F3A06DA4578806612F8 /* CDVFile.m */; };
 		E09EE079F06347EAADA062A2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD8723933DF4FA88F48972F /* CoreTelephony.framework */; };
 		F13DE96071C54DCAA04E35D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417B2182F7E644EEB564D31A /* QuartzCore.framework */; };
 		FA7242EB6C494D94884D9F1A /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5119BCDB3487BAC607157 /* CDVSound.m */; };
-		66FBF224700847CBBBEFDD4E /* Admob.m in Sources */ = {isa = PBXBuildFile; fileRef = A8430F4FFC4D45E3904B0136 /* Admob.m */; };
-		A0EB676904A046F7A45FF247 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF8401A9C5743DB9D16B363 /* libGoogleAdMobAds.a */; };
-		C78FF1DD39B6416E915AF676 /* ChartboostPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BABBA7388B374A189F2FC32F /* ChartboostPlugin.m */; };
-		192C95B72119434BB1914021 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B611696AB558488A99B442ED /* Chartboost.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +61,14 @@
 		03A06405525645E383E1987F /* EventKitUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		1821A54D22D04E3B86DC7193 /* Foundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18948F3A06DA4578806612F8 /* CDVFile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; };
+		19AE10ADBD7E4ED8A41829E0 /* GADAdMobExtras.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADAdMobExtras.h; sourceTree = "<group>"; };
+		1B6E9110E34B45B2BE03EC58 /* GADInAppPurchase.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchase.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADInAppPurchase.h; sourceTree = "<group>"; };
 		1C6F9E62B96D409CA377CADC /* EventKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* TrillRush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrillRush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC20B1F970144D6BF6A7200 /* CDVSound.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSound.h; path = "cordova-plugin-media/CDVSound.h"; sourceTree = "<group>"; };
+		28D224AACDDB4625883DEAAB /* GADRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADRequest.h; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -75,44 +79,41 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* TrillRush-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrillRush-Prefix.pch"; sourceTree = "<group>"; };
+		339E7D45D3584614A5AB25A7 /* Admob.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Admob.h; path = com.cranberrygame.phonegap.plugin.ad.admob/Admob.h; sourceTree = "<group>"; };
+		371C388009E345D7BC6D3190 /* GADModules.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADModules.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADModules.h; sourceTree = "<group>"; };
 		417B2182F7E644EEB564D31A /* QuartzCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4EF8401A9C5743DB9D16B363 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = TrillRush/Plugins/com.cranberrygame.phonegap.plugin.ad.admob/libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		5114D9253F294BCE92F2B60B /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; };
+		5831D5E0156F4F97858F0383 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchaseDelegate.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		5A39612B4F8649C587195F22 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADAdNetworkExtras.h; sourceTree = "<group>"; };
 		5DD5119BCDB3487BAC607157 /* CDVSound.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSound.m; path = "cordova-plugin-media/CDVSound.m"; sourceTree = "<group>"; };
+		8B7F40C69AF94FD7AC8B750C /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADInterstitialDelegate.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TrillRush-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TrillRush-Info.plist"; path = "TrillRush/TrillRush-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		8DA7B7DD8E684EB19AB2534C /* GADAdSize.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADAdSize.h; sourceTree = "<group>"; };
+		9785A0DF53904CF8BCAB8571 /* GADBannerView.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADBannerView.h; sourceTree = "<group>"; };
 		A070AC89A7FB419682ED1345 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
 		A7F44BE53E6A480FAE9E2174 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; };
+		A8430F4FFC4D45E3904B0136 /* Admob.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Admob.m; path = com.cranberrygame.phonegap.plugin.ad.admob/Admob.m; sourceTree = "<group>"; };
 		A8BBEBE2D13749F39C8EBE91 /* CDVFileTransfer.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFileTransfer.m; path = "cordova-plugin-file-transfer/CDVFileTransfer.m"; sourceTree = "<group>"; };
 		ACD8723933DF4FA88F48972F /* CoreTelephony.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B611696AB558488A99B442ED /* Chartboost.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = "TrillRush/Plugins/cordova-plugin-ad-chartboost/Chartboost.framework"; sourceTree = "<group>"; };
+		BABBA7388B374A189F2FC32F /* ChartboostPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ChartboostPlugin.m; path = "cordova-plugin-ad-chartboost/ChartboostPlugin.m"; sourceTree = "<group>"; };
 		BBBFDA5393174687B9C96C8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BFBB97B40F624034B43E9EA5 /* AudioToolbox.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CB5891DF4CE447F8BF1474F5 /* AdSupport.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		D245BAD2B47D404F9C20D5DB /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
+		D510346090C74AE0ABEA0B30 /* GADRequestError.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADRequestError.h; sourceTree = "<group>"; };
 		DA45B1DA175746CF89D3F4D8 /* CDVFile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
 		DC326CAE1C8840CDBE95D911 /* CDVFileTransfer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFileTransfer.h; path = "cordova-plugin-file-transfer/CDVFileTransfer.h"; sourceTree = "<group>"; };
+		E0E6A7F3577245EC861AD3AC /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		E2A4A59216E446D18640B48E /* ChartboostPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ChartboostPlugin.h; path = "cordova-plugin-ad-chartboost/ChartboostPlugin.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F1DE1CA8A8B74FC282DC4B38 /* MessageUI.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = TrillRush/config.xml; sourceTree = "<group>"; };
+		FADC87D5668F414B93FEC0EC /* GADInterstitial.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = com.cranberrygame.phonegap.plugin.ad.admob/GADInterstitial.h; sourceTree = "<group>"; };
 		FCADE26BFC6D4F8C94A18F79 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 0; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A8430F4FFC4D45E3904B0136 /* Admob.m */ = {isa = PBXFileReference; name = "Admob.m"; path = "com.cranberrygame.phonegap.plugin.ad.admob/Admob.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		4EF8401A9C5743DB9D16B363 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; name = "libGoogleAdMobAds.a"; path = "TrillRush/Plugins/com.cranberrygame.phonegap.plugin.ad.admob/libGoogleAdMobAds.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		339E7D45D3584614A5AB25A7 /* Admob.h */ = {isa = PBXFileReference; name = "Admob.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/Admob.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		19AE10ADBD7E4ED8A41829E0 /* GADAdMobExtras.h */ = {isa = PBXFileReference; name = "GADAdMobExtras.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADAdMobExtras.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		5A39612B4F8649C587195F22 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; name = "GADAdNetworkExtras.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADAdNetworkExtras.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		8DA7B7DD8E684EB19AB2534C /* GADAdSize.h */ = {isa = PBXFileReference; name = "GADAdSize.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADAdSize.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		9785A0DF53904CF8BCAB8571 /* GADBannerView.h */ = {isa = PBXFileReference; name = "GADBannerView.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADBannerView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		E0E6A7F3577245EC861AD3AC /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; name = "GADBannerViewDelegate.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADBannerViewDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		1B6E9110E34B45B2BE03EC58 /* GADInAppPurchase.h */ = {isa = PBXFileReference; name = "GADInAppPurchase.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADInAppPurchase.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		5831D5E0156F4F97858F0383 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; name = "GADInAppPurchaseDelegate.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADInAppPurchaseDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		FADC87D5668F414B93FEC0EC /* GADInterstitial.h */ = {isa = PBXFileReference; name = "GADInterstitial.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADInterstitial.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		8B7F40C69AF94FD7AC8B750C /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; name = "GADInterstitialDelegate.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADInterstitialDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		371C388009E345D7BC6D3190 /* GADModules.h */ = {isa = PBXFileReference; name = "GADModules.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADModules.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		28D224AACDDB4625883DEAAB /* GADRequest.h */ = {isa = PBXFileReference; name = "GADRequest.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADRequest.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D510346090C74AE0ABEA0B30 /* GADRequestError.h */ = {isa = PBXFileReference; name = "GADRequestError.h"; path = "com.cranberrygame.phonegap.plugin.ad.admob/GADRequestError.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		BABBA7388B374A189F2FC32F /* ChartboostPlugin.m */ = {isa = PBXFileReference; name = "ChartboostPlugin.m"; path = "cordova-plugin-ad-chartboost/ChartboostPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E2A4A59216E446D18640B48E /* ChartboostPlugin.h */ = {isa = PBXFileReference; name = "ChartboostPlugin.h"; path = "cordova-plugin-ad-chartboost/ChartboostPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		B611696AB558488A99B442ED /* Chartboost.framework */ = {isa = PBXFileReference; name = "Chartboost.framework"; path = "TrillRush/Plugins/cordova-plugin-ad-chartboost/Chartboost.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,12 +435,13 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "TrillRush/TrillRush-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_NAME = TrillRush;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TrillRush/Plugins/com.cranberrygame.phonegap.plugin.ad.admob\"",
 				);
+				PRODUCT_NAME = TrillRush;
 			};
 			name = Debug;
 		};
@@ -465,11 +467,12 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "TrillRush/TrillRush-Info.plist";
-				PRODUCT_NAME = TrillRush;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TrillRush/Plugins/com.cranberrygame.phonegap.plugin.ad.admob\"",
 				);
+				PRODUCT_NAME = TrillRush;
 			};
 			name = Release;
 		};
